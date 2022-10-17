@@ -5,6 +5,7 @@ model =pd. read_pickle('housePrice.pickle')
 
 app=ttk.Tk()
 app.configure(background='purple')
+
 app.geometry('600x600')
 app.title('House Price Predictor')
 
